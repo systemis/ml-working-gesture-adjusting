@@ -1,0 +1,97 @@
+.header span {
+  font-weight: bold;
+  font-size: 24px;
+}
+.header span .bad {
+  color: #ff3b30;
+}
+.header span .good {
+  color: #34c759;
+}
+.header span span {
+  font-style: italic;
+  text-decoration: underline;
+}
+.header span#header-sub-text {
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 8px;
+  display: block;
+  margin-bottom: 16px;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+.main-content .modes {
+  width: 200px;
+  padding: 16px 48px 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main-content .modes .mode {
+  width: 140px;
+  height: 108px;
+  border-radius: 8px;
+  opacity: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .modes .mode.active {
+  opacity: 1 !important;
+}
+.main-content .modes .mode.good {
+  border: 1px solid #34c759;
+  background-color: rgba(52, 199, 89, 0.06);
+}
+.main-content .modes .mode.bad {
+  border: 1px solid #ff3b30;
+  background-color: rgba(255, 59, 48, 0.04);
+}
+.main-content .camera-feed {
+  background-color: black;
+  border-radius: 8px;
+  width: 600px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .camera-feed video {
+  max-width: 600px;
+  max-height: 450px;
+}
+.main-content .actions {
+  width: 200px;
+  padding: 16px 16px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-content .actions a {
+  width: 116px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+}
+.main-content .actions a img {
+  margin-bottom: 6px;
+}
+.main-content .actions a:hover img {
+  transform: scale(1.05);
+}
+.main-content .actions a:active img {
+  transform: scale(1);
+}
+.active {
+  opacity: 1 !important;
+}

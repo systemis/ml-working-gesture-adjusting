@@ -1,0 +1,7 @@
+,uuid,session,timestamp,client,image_url,image_index,mode,score
+0,1,939824,2023-12-13 10:25:09.043000+00:00,127.0.0.1,https://sp-image-storage.s3.amazonaws.com/1702463106762,0,default,0
+1,2,939824,2023-12-13 10:25:23.714000+00:00,127.0.0.1,https://sp-image-storage.s3.ap-southeast-1.amazonaws.com/1702463122490,1,default,1
+2,3,939824,2023-12-13 10:25:24.806000+00:00,127.0.0.1,https://sp-image-storage.s3.ap-southeast-1.amazonaws.com/1702463123826,2,default,2
+3,4,939824,2023-12-13 10:25:34.556000+00:00,127.0.0.1,https://sp-image-storage.s3.ap-southeast-1.amazonaws.com/1702463133579,0,default,0
+4,5,91391,2023-12-14 03:31:05.602000+00:00,127.0.0.1,https://sp-image-storage.s3.amazonaws.com/1702524663576,0,default,0
+5,6,91391,2023-12-14 03:31:06.658000+00:00,127.0.0.1,https://sp-image-storage.s3.ap-southeast-1.amazonaws.com/1702524665533,1,default,1

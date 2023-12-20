@@ -1,0 +1,15 @@
+{
+  "name": "working-posture-tracker",
+  "description": "Adjusting Working Posture Macos app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "ISC",
+  "author": "systemis",
+  "scripts": {
+    "start": "lessc ./assets/less-css/data.less ./assets/less-css/data.css & lessc ./assets/less-css/style.less ./assets/less-css/style.css & lessc ./assets/less-css/inference.less ./assets/less-css/inference.css & electron main.js",
+    "package": "electron-packager ./ --platform=darwin --arch=x64 --out=out --icon=./icon.icns --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
